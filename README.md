@@ -19,31 +19,31 @@ FEATURES
 
 PROJECT STRUCTURE
 
-Polygon-Analyzer/
-│
-├── src/
-│   └── poligone2DCPP.cpp
-│
-├── python/
-│   └── plot_polygon.py
-│
-├── examples/
-│   ├── Calculating_Area_Example.jpg
-│   ├── Calculating_Centroid_Example.jpg
-│   ├── Calculating_Perimeter_Example.jpg
-│   ├── Changing_Polygon's_Scale.jpg
-│   ├── Creating_New_Polygon_Example.jpg
-│   ├── Creating_Polygon_Example.jpg
-│   ├── Distance_Between_Two_Points_Example.jpg
-│   ├── Distance_From_Origin_Example.jpg
-│   ├── Initial_Polygon_Graph.jpg
-│   ├── Modified_Polygon_Graph.jpg
-│   ├── Rotating_Polygon_Example.jpg
-│   ├── Saving_CSV_File_Example.jpg
-│   ├── Show_Polygon_Example.jpg
-│   └── Translating_Polygon_Example.jpg
-│
-└── README.md
+* Main directories *
+
+** src/ → Contains the main C++ program
+   - poligone2DCPP.cpp — Core implementation of all polygon operations
+
+** python/ → Script for visualization
+   - plot_polygon.py — Plots the polygon from the exported CSV
+
+** examples/ → Screenshots and generated examples
+   - Creating_Polygon_Example.jpg
+   - Show_Polygon_Example.jpg
+   - Calculating_Perimeter_Example.jpg
+   - Distance_From_Origin_Example.jpg
+   - Distance_Between_Two_Points_Example.jpg
+   - Calculating_Area_Example.jpg
+   - Calculating_Centroid_Example.jpg
+   - Translating_Polygon_Example.jpg
+   - Rotating_Polygon_Example.jpg
+   - Changing_Polygon's_Scale.jpg
+   - Creating_New_Polygon_Example.jpg
+   - Saving_CSV_File_Example.jpg
+   - Initial_Polygon_Graph.jpg
+   - Modified_Polygon_Graph.jpg
+
+** README.md — Project documentation
 
 STEPS TO TAKE
 
