@@ -20,11 +20,14 @@ FEATURES
 PROJECT STRUCTURE
 
 Polygon-Analyzer/
+│
 ├── src/
-│   └── poligone2DCPP.cpp            # Main C++ program
+│   └── poligone2DCPP.cpp
+│
 ├── python/
-│   └── plot_polygon.py              # Script to visualize the polygon (CSV → Graph)
-├── examples/                        # Screenshots and CSV examples
+│   └── plot_polygon.py
+│
+├── examples/
 │   ├── Calculating_Area_Example.jpg
 │   ├── Calculating_Centroid_Example.jpg
 │   ├── Calculating_Perimeter_Example.jpg
@@ -39,6 +42,7 @@ Polygon-Analyzer/
 │   ├── Saving_CSV_File_Example.jpg
 │   ├── Show_Polygon_Example.jpg
 │   └── Translating_Polygon_Example.jpg
+│
 └── README.md
 
 STEPS TO TAKE
